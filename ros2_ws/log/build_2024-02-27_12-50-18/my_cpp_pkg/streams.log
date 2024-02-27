@@ -1,0 +1,15 @@
+[0.062s] Invoking command in '/home/debora/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit2/install/moveit_configs_utils:/home/debora/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/debora/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.135s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.918s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:20:24:[m[K [01;31m[Kerror: [m[K‘[01m[KSharePtr[m[K’ in ‘[01m[Kclass rclcpp::TimerBase[m[K’ does not name a type
+[1.918s]    20 |     rclcpp::TimerBase::[01;31m[KSharePtr[m[K timer_;
+[1.918s]       |                        [01;31m[K^~~~~~~~[m[K
+[1.924s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[1.924s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.924s]    10 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(1),
+[1.924s]       |         [01;31m[K^~~~~~[m[K
+[1.925s]       |         [32m[Ktimer_t[m[K
+[2.335s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[2.335s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[2.335s] gmake: *** [Makefile:146: all] Error 2
+[2.337s] Invoked command in '/home/debora/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit2/install/moveit_configs_utils:/home/debora/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/debora/ros2_ws/build/my_cpp_pkg -- -j4 -l4

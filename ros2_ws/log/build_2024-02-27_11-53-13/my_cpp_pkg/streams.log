@@ -1,0 +1,34 @@
+[0.076s] Invoking command in '/home/debora/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit2/install/moveit_configs_utils:/home/debora/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/debora/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.125s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[2.276s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:26:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kchar** arg[m[K’
+[2.276s]     3 | int main(int arg, [01;31m[Kchar **arg[m[K){
+[2.276s]       |                   [01;31m[K~~~~~~~^~~[m[K
+[2.276s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kint arg[m[K’
+[2.276s]     3 | int main([01;36m[Kint arg[m[K, char **arg){
+[2.276s]       |          [01;36m[K~~~~^~~[m[K
+[2.276s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(...)[m[K’:
+[2.276s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:4:22:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst char* const*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.276s]     4 |     rclcpp::init(arg,[01;31m[Karg[m[K);
+[2.276s]       |                      [01;31m[K^~~[m[K
+[2.276s]       |                      [01;31m[K|[m[K
+[2.276s]       |                      [01;31m[Kint[m[K
+[2.276s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[2.276s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.277s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.277s]                  from [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[2.277s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:77:24:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&, rclcpp::SignalHandlerOptions)[m[K’
+[2.277s]    77 |   [01;36m[Kchar const * const * argv[m[K,
+[2.277s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.692s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[2.692s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[2.693s] gmake: *** [Makefile:146: all] Error 2
+[2.696s] Invoked command in '/home/debora/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit2/install/moveit_configs_utils:/home/debora/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/debora/ros2_ws/build/my_cpp_pkg -- -j4 -l4

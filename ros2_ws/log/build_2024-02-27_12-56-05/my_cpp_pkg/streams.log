@@ -1,0 +1,46 @@
+[0.067s] Invoking command in '/home/debora/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit2/install/moveit_configs_utils:/home/debora/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/debora/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.139s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[2.005s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.005s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:30:34:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[KMyNode[m[K’ in a constant expression
+[2.005s]    30 |     auto node = std::make_shared<[01;31m[KMyNode()[m[K;
+[2.005s]       |                                  [01;31m[K^~~~~~~~[m[K
+[2.005s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:7:[m[K [01;36m[Knote: [m[K‘[01m[KMyNode[m[K’ is not literal because:
+[2.005s]     3 | class [01;36m[KMyNode[m[K: public rclcpp::Node
+[2.005s]       |       [01;36m[K^~~~~~[m[K
+[2.005s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:7:[m[K [01;36m[Knote: [m[K  ‘[01m[KMyNode[m[K’ has a non-trivial destructor
+[2.006s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:30:22:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.006s]    30 |     auto node = std::[01;31m[Kmake_shared<MyNode()[m[K;
+[2.006s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.006s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:30:22:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kauto[m[K’ from ‘[01m[Kmake_shared<MyNode()>[m[K’
+[2.006s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:30:22:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[Kauto[m[K’
+[2.006s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.006s]                  from [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[2.006s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:31:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.006s]    31 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+[2.006s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.006s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.006s]    31 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+[2.007s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.007s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:31:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.007s]    31 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+[2.007s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.007s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.007s]    31 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+[2.007s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.007s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:31:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.007s]    31 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+[2.007s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.387s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[2.387s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[2.387s] gmake: *** [Makefile:146: all] Error 2
+[2.390s] Invoked command in '/home/debora/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit2/install/moveit_configs_utils:/home/debora/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/debora/ros2_ws/build/my_cpp_pkg -- -j4 -l4

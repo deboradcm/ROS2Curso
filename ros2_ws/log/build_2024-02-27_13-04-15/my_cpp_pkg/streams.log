@@ -1,0 +1,47 @@
+[0.072s] Invoking command in '/home/debora/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit2/install/moveit_configs_utils:/home/debora/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/debora/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.139s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.895s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.896s]                  from [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[1.896s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::timerCallback()[m[K’:
+[1.896s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:17:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects a matching ‘[01m[Kint[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.896s]    17 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Hello %d, counter_"[m[K);
+[1.896s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.896s] [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:17:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.896s]    17 |         RCLCPP_INFO(this->get_logger(), "Hello [01;36m[K%d[m[K, counter_");
+[1.896s]       |                                                [01;36m[K~^[m[K
+[1.896s]       |                                                 [01;36m[K|[m[K
+[1.896s]       |                                                 [01;36m[Kint[m[K
+[2.421s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[2.521s] [100%] Built target cpp_node
+[2.533s] Invoked command in '/home/debora/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit2/install/moveit_configs_utils:/home/debora/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/debora/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[2.578s] Invoking command in '/home/debora/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit2/install/moveit_configs_utils:/home/debora/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/debora/ros2_ws/build/my_cpp_pkg
+[2.587s] -- Install configuration: ""
+[2.588s] -- Installing: /home/debora/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[2.588s] -- Set runtime path of "/home/debora/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[2.588s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.588s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.589s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.589s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.589s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.589s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.589s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.589s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.589s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.589s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.589s] -- Installing: /home/debora/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.590s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.590s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.590s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.590s] -- Up-to-date: /home/debora/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.592s] Invoked command in '/home/debora/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit2/install/moveit_configs_utils:/home/debora/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/debora/ros2_ws/build/my_cpp_pkg

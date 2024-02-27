@@ -1,0 +1,42 @@
+[01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:30:34:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[KMyNode[m[K’ in a constant expression
+   30 |     auto node = std::make_shared<[01;31m[KMyNode()[m[K;
+      |                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:7:[m[K [01;36m[Knote: [m[K‘[01m[KMyNode[m[K’ is not literal because:
+    3 | class [01;36m[KMyNode[m[K: public rclcpp::Node
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:7:[m[K [01;36m[Knote: [m[K  ‘[01m[KMyNode[m[K’ has a non-trivial destructor
+[01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:30:22:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   30 |     auto node = std::[01;31m[Kmake_shared<MyNode()[m[K;
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:30:22:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kauto[m[K’ from ‘[01m[Kmake_shared<MyNode()>[m[K’
+[01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:30:22:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[Kauto[m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:31:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   31 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:31:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   31 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/debora/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:31:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
