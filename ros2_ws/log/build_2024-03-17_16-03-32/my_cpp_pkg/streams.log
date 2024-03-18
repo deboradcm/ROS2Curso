@@ -1,0 +1,22 @@
+[0.031s] Invoking command in '/home/debora/ROS2Curso/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ROS2Curso/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/debora/ROS2Curso/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.224s] [100%] Built target cpp_node
+[0.240s] Invoked command in '/home/debora/ROS2Curso/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ROS2Curso/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/debora/ROS2Curso/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.310s] Invoking command in '/home/debora/ROS2Curso/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ROS2Curso/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/debora/ROS2Curso/ros2_ws/build/my_cpp_pkg
+[0.324s] -- Install configuration: ""
+[0.328s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[0.328s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[0.329s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[0.329s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[0.329s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[0.329s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[0.329s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[0.329s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[0.329s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[0.329s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[0.329s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[0.329s] -- Installing: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[0.331s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[0.331s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[0.331s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[0.331s] -- Up-to-date: /home/debora/ROS2Curso/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[0.334s] Invoked command in '/home/debora/ROS2Curso/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ROS2Curso/ros2_ws/install/my_py_pkg:/home/debora/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/debora/ROS2Curso/ros2_ws/build/my_cpp_pkg

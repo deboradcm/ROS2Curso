@@ -1,0 +1,30 @@
+[0.640s] Invoking command in '/home/debora/ROS2Curso/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/debora/ROS2Curso/ros2_ws/build/my_py_pkg/prefix_override:/home/debora/ROS2Curso/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/debora/ROS2Curso/ros2_ws/build/my_py_pkg/build install --record /home/debora/ROS2Curso/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.856s] running egg_info
+[0.856s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[0.856s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.856s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.857s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.857s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.857s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.857s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.858s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.859s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.859s] running build
+[0.859s] running build_py
+[0.859s] creating /home/debora/ROS2Curso/ros2_ws/build/my_py_pkg/build
+[0.860s] creating /home/debora/ROS2Curso/ros2_ws/build/my_py_pkg/build/lib
+[0.860s] creating /home/debora/ROS2Curso/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.860s] copying my_py_pkg/__init__.py -> /home/debora/ROS2Curso/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.860s] copying my_py_pkg/my_first_node.py -> /home/debora/ROS2Curso/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.860s] running install
+[0.860s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.861s]   warnings.warn(
+[0.861s] running install_lib
+[0.862s] running install_data
+[0.863s] running install_egg_info
+[0.864s] removing '/home/debora/ROS2Curso/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.864s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/debora/ROS2Curso/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.864s] running install_scripts
+[0.885s] Installing py_node script to /home/debora/ROS2Curso/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.885s] writing list of installed files to '/home/debora/ROS2Curso/ros2_ws/build/my_py_pkg/install.log'
+[0.909s] Invoked command in '/home/debora/ROS2Curso/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/debora/ROS2Curso/ros2_ws/build/my_py_pkg/prefix_override:/home/debora/ROS2Curso/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/debora/ROS2Curso/ros2_ws/build/my_py_pkg/build install --record /home/debora/ROS2Curso/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

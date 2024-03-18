@@ -1,0 +1,6 @@
+[0.056s] Invoking command in '/home/debora/ws_moveit/ROS2Curso/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/debora/ws_moveit/ROS2Curso/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.064s] [0mCMake Error: The current CMakeCache.txt directory /home/debora/ws_moveit/ROS2Curso/ros2_ws/build/my_cpp_pkg/CMakeCache.txt is different than the directory /home/debora/ros2_ws/build/my_cpp_pkg where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.075s] [0mCMake Error: The source directory "/home/debora/ros2_ws/src/my_cpp_pkg" does not exist.
+[0.075s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.076s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.078s] Invoked command in '/home/debora/ws_moveit/ROS2Curso/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/debora/ws_moveit/ROS2Curso/ros2_ws/build/my_cpp_pkg -- -j4 -l4

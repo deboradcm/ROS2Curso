@@ -1,3 +1,3 @@
 import sys
 sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/debora/ros2_ws/install/my_py_pkg'
+sys.prefix = sys.exec_prefix = '/home/debora/ROS2Curso/ros2_ws/install/my_py_pkg'

@@ -1,0 +1,2 @@
+Invoking command in '/home/debora/ws_moveit/ROS2Curso/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/debora/ws_moveit/ROS2Curso/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+Invoked command in '/home/debora/ws_moveit/ROS2Curso/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/debora/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/debora/ws_moveit/ROS2Curso/ros2_ws/build/my_cpp_pkg -- -j4 -l4
