@@ -18,8 +18,14 @@ sudo apt install ros-humble-gazebo*
 
 no terminal:
 code ~/.bashrc
+
+observação: Se não tiver o code instalado, basta escrever no terminal: 
+sudo snap install code --classic
 e acrecente no final do arquivo o que segue e depois salve. 
 source /usr/share/gazebo/setup.bash
 
+Opcional:
+Vocẽ pode também querer instalar o terminator, basta:
+sudo apt install terminator
 
 ## ROS2 for Beginners Level 3 - Advanced Concepts
